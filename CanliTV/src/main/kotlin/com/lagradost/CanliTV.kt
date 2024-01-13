@@ -53,7 +53,7 @@ class CanliTV : MainAPI() {
 
         var sorgu = query
         if (sorgu == "guy") { // ! Test Provider
-            sorgu = "TRT"
+            sorgu = "TVB"
         }
 
         return kanallar.items.filter { it.title.toString().lowercase().contains(sorgu.lowercase()) }.map { kanal ->
