@@ -11,7 +11,7 @@ import java.io.InputStream
 
 class CanliTV : MainAPI() {
     override var mainUrl              = "https://github.com/egglercraftdev/e32qwrf34gy5t4/raw/main/canli.m3u"
-    override var name                 = "CanliTV"
+    override var name                 = "CanliiTV"
     override val hasMainPage          = true
     override var lang                 = "tr"
     override val hasQuickSearch       = true
