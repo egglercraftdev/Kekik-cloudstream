@@ -52,6 +52,7 @@ class FullHDFilmizlesene : MainAPI() {
         "${mainUrl}/filmizle/tarih-filmleri-izle/"              to "Tarih Filmleri",
         "${mainUrl}/filmizle/western-filmleri-izle/"            to "Western Filmler",
         "${mainUrl}/filmizle/yerli-filmler-izle-3/"             to "Yerli Filmler",
+        "${mainUrl}/filmizle/4k-filmler-izle/"                  to "4K Filimler",
     )
 
     override suspend fun getMainPage(page: Int, request: MainPageRequest): HomePageResponse {
